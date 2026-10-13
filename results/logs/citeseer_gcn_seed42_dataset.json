@@ -1,0 +1,29 @@
+{
+  "dataset": "citeseer",
+  "nodes": 3327,
+  "features": 3703,
+  "classes": 6,
+  "undirected_edges": 4552,
+  "directed_entries": 9104,
+  "paper_links": 4732,
+  "unknown_labels": 15,
+  "class_counts": [
+    249,
+    590,
+    668,
+    701,
+    596,
+    508
+  ],
+  "sha256": {
+    "ind.citeseer.x": "d20de19150741e555de0ed037195630fc194114ebc7fd72ced62810148aa22f6",
+    "ind.citeseer.y": "8ba87e515d8e3ee3cf52f6d2c5b86aa73f11ecad825a808455209ec26cd54924",
+    "ind.citeseer.tx": "539a8906a2da97628d212f2fdd668c109a8b3f0d36574b59e5d3fd5b5303da21",
+    "ind.citeseer.ty": "55e5bd1ba1e733a04598753ad1a8d57957f4b8f89e74519f41f4f4938767e4ce",
+    "ind.citeseer.allx": "2ac30345d95c9ec933a817ee0bdd6a5f077f8c184a20e696910192d534414668",
+    "ind.citeseer.ally": "f704b2d986dde6c2669934de1f3ae5696a6cf9455c0f6b2646a2d135ea0a1c95",
+    "ind.citeseer.graph": "d79a4ef9d3e7169aee8946145f6b7306e35bc79bffad26346cfb94e10e9912a7",
+    "ind.citeseer.test.index": "2af990671580b6b2df5d158d1038f8292e30c9cd821b5453f399659b25b723d4"
+  },
+  "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/"
+}

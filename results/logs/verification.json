@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "run_count": 27,
+  "notebook_executed_code_cells": 11,
+  "notebook_errors": 0,
+  "pdf_pages": 7,
+  "pdf_all_pages_visually_reviewed": true,
+  "only_python_source": "main.py",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "main_sha256": "e5a7f2f6e9893322c742b1410b253225d5b2265add74be4f9625218bff8c4b72",
+  "debug": {
+    "status": "passed",
+    "controlled_initial_loss": 9.0,
+    "controlled_final_loss": 0.001196303521282971,
+    "checks": [
+      "dataset dimensions",
+      "holdout-label invariance",
+      "disjoint splits",
+      "sparse normalization",
+      "forward pass",
+      "finite loss",
+      "nonzero finite gradients",
+      "parameter update",
+      "soft assignments",
+      "target distribution",
+      "easy/hard update",
+      "negative edges",
+      "reconstruction",
+      "metrics",
+      "checkpoint reload"
+    ]
+  },
+  "runs": [
+    {
+      "run_id": "cora_gcn_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_gcn_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_gcn_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_gnn_incm_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_gnn_incm_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_gnn_incm_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_cluster_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_cluster_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_cluster_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_hard_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_hard_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_hard_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_reconstruction_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_reconstruction_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "cora_no_reconstruction_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "citeseer_gcn_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "citeseer_gcn_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "citeseer_gcn_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "citeseer_gnn_incm_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "citeseer_gnn_incm_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "citeseer_gnn_incm_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "pubmed_gcn_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "pubmed_gcn_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "pubmed_gcn_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "pubmed_gnn_incm_seed42",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "pubmed_gnn_incm_seed43",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    },
+    {
+      "run_id": "pubmed_gnn_incm_seed44",
+      "predictions_match_checkpoint": true,
+      "metrics_recomputed": true,
+      "best_validation_epoch_verified": true
+    }
+  ],
+  "unfinished": [
+    "HSKDM",
+    "CiteSeer/PubMed ablations",
+    "ten-seed paper-scale study",
+    "exact numerical reproduction"
+  ],
+  "notebook_frontend_installed": "7.6.3",
+  "dataset_packaging_update": {
+    "bundled_input_files": 24,
+    "all_match_training_sha256": true,
+    "default_cache": "data/",
+    "current_main_sha256": "424313d6da815d7d7ef0b2b3fd60c0be2011103a4d22178260f6705abb6b3e08",
+    "change": "Default dataset cache location only; training implementation unchanged.",
+    "offline_load_all_datasets": "passed"
+  }
+}

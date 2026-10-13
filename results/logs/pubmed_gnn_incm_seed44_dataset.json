@@ -1,0 +1,26 @@
+{
+  "dataset": "pubmed",
+  "nodes": 19717,
+  "features": 500,
+  "classes": 3,
+  "undirected_edges": 44324,
+  "directed_entries": 88648,
+  "paper_links": 44338,
+  "unknown_labels": 0,
+  "class_counts": [
+    4103,
+    7739,
+    7875
+  ],
+  "sha256": {
+    "ind.pubmed.x": "fbe9cb5c47200d1b7769a26e579be3b7130b556831f9d850e77c4c74f2599b33",
+    "ind.pubmed.y": "e6c807633307a07ed659249006536a147c7999c797f11a2560752990181b41b3",
+    "ind.pubmed.tx": "4eb5f5d0f30f26497eb0ac6ac9719d09c67e284f1ed0385c93f3ef27a671da3d",
+    "ind.pubmed.ty": "ee2e0d4819d9fbcc403689c3bf2e49face401b605932f093bc58ab6461130fdd",
+    "ind.pubmed.allx": "508e538e2abdccdd54c4d3e9f49d638b4af7107d85845f66ddea5a5152658b7e",
+    "ind.pubmed.ally": "0c37bbe3b5014ec365e9d393cf4791925e5ed94fb194305d74f064a8d7b50f0e",
+    "ind.pubmed.graph": "5b89f0036ca22909471f1e6558eb42fa06e0c730a577bde5b058b40638f81dc9",
+    "ind.pubmed.test.index": "b101d421688bbaecbd82e8a18f1e282378d6830f3a37666f28ebc47f844341b5"
+  },
+  "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/"
+}

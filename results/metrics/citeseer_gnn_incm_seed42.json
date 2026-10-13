@@ -1,0 +1,131 @@
+{
+  "accuracy": 0.593015214384509,
+  "macro_precision": 0.6348201589209241,
+  "macro_recall": 0.548171451359582,
+  "macro_f1": 0.5637082229154299,
+  "mcc": 0.519142681763103,
+  "per_class": [
+    {
+      "class_id": 0,
+      "precision": 0.18932038834951456,
+      "recall": 0.1780821917808219,
+      "f1": 0.18352941176470589,
+      "support": 219
+    },
+    {
+      "class_id": 1,
+      "precision": 0.3736059479553903,
+      "recall": 0.7760617760617761,
+      "f1": 0.5043914680050188,
+      "support": 518
+    },
+    {
+      "class_id": 2,
+      "precision": 0.6948176583493282,
+      "recall": 0.616695059625213,
+      "f1": 0.6534296028880866,
+      "support": 587
+    },
+    {
+      "class_id": 3,
+      "precision": 0.796812749003984,
+      "recall": 0.6493506493506493,
+      "f1": 0.7155635062611807,
+      "support": 616
+    },
+    {
+      "class_id": 4,
+      "precision": 0.8510028653295129,
+      "recall": 0.5711538461538461,
+      "f1": 0.6835443037974683,
+      "support": 520
+    },
+    {
+      "class_id": 5,
+      "precision": 0.9033613445378151,
+      "recall": 0.4976851851851852,
+      "f1": 0.6417910447761194,
+      "support": 432
+    }
+  ],
+  "confusion_matrix": [
+    [
+      39,
+      135,
+      8,
+      23,
+      10,
+      4
+    ],
+    [
+      63,
+      402,
+      31,
+      16,
+      4,
+      2
+    ],
+    [
+      13,
+      161,
+      362,
+      34,
+      9,
+      8
+    ],
+    [
+      27,
+      85,
+      93,
+      400,
+      8,
+      3
+    ],
+    [
+      35,
+      168,
+      4,
+      10,
+      297,
+      6
+    ],
+    [
+      29,
+      125,
+      23,
+      19,
+      21,
+      215
+    ]
+  ],
+  "run_id": "citeseer_gnn_incm_seed42",
+  "dataset": "citeseer",
+  "model": "gnn_incm",
+  "seed": 42,
+  "best_epoch": 45,
+  "val_macro_f1": 0.5715094818087774,
+  "config": {
+    "dataset": "citeseer",
+    "model": "gnn_incm",
+    "seed": 42,
+    "epochs": 1000,
+    "patience": 200,
+    "hidden": 100,
+    "dropout": 0.3,
+    "lr": 0.002,
+    "weight_decay": 0.03,
+    "gamma": 1.01,
+    "beta_cap": 100.0,
+    "edge_samples": 10000,
+    "cache": "C:\\Users\\vishe\\OneDrive\\Documents\\gnn-incm-dataset-cache",
+    "output": "C:\\Users\\vishe\\OneDrive\\Documents\\GNN-INCM-Replication\\results",
+    "threads": 2
+  },
+  "split_sizes": {
+    "train": 99,
+    "val": 321,
+    "test": 2892
+  },
+  "epochs_ran": 245,
+  "seconds": 16.018738299957477
+}

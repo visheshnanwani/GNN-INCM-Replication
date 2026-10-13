@@ -1,0 +1,77 @@
+{
+  "accuracy": 0.7610084814685721,
+  "macro_precision": 0.7609121925801748,
+  "macro_recall": 0.7841722378783723,
+  "macro_f1": 0.7594866596277337,
+  "mcc": 0.646415935651254,
+  "per_class": [
+    {
+      "class_id": 0,
+      "precision": 0.6588187538055612,
+      "recall": 0.9034233231283051,
+      "f1": 0.7619718309859155,
+      "support": 3593
+    },
+    {
+      "class_id": 1,
+      "precision": 0.7582372322899505,
+      "recall": 0.8204099821746881,
+      "f1": 0.7880993150684932,
+      "support": 6732
+    },
+    {
+      "class_id": 2,
+      "precision": 0.865680591645013,
+      "recall": 0.6286834083321237,
+      "f1": 0.7283888328287925,
+      "support": 6889
+    }
+  ],
+  "confusion_matrix": [
+    [
+      3246,
+      80,
+      267
+    ],
+    [
+      804,
+      5523,
+      405
+    ],
+    [
+      877,
+      1681,
+      4331
+    ]
+  ],
+  "run_id": "pubmed_gnn_incm_seed42",
+  "dataset": "pubmed",
+  "model": "gnn_incm",
+  "seed": 42,
+  "best_epoch": 53,
+  "val_macro_f1": 0.7646882430588011,
+  "config": {
+    "dataset": "pubmed",
+    "model": "gnn_incm",
+    "seed": 42,
+    "epochs": 1000,
+    "patience": 200,
+    "hidden": 100,
+    "dropout": 0.3,
+    "lr": 0.002,
+    "weight_decay": 0.03,
+    "gamma": 1.01,
+    "beta_cap": 100.0,
+    "edge_samples": 10000,
+    "cache": "C:\\Users\\vishe\\OneDrive\\Documents\\gnn-incm-dataset-cache",
+    "output": "C:\\Users\\vishe\\OneDrive\\Documents\\GNN-INCM-Replication\\results",
+    "threads": 2
+  },
+  "split_sizes": {
+    "train": 591,
+    "val": 1912,
+    "test": 17214
+  },
+  "epochs_ran": 253,
+  "seconds": 34.195514599909075
+}

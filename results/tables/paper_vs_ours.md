@@ -1,0 +1,34 @@
+F1: our macro F1; the paper does not specify multiclass averaging, so F1 differences are descriptive only. MCC: our standard multiclass MCC. Paper Table 2; 10 trials versus the run counts in summary.csv.
+
+| Dataset | Model | Metric | Paper Result | Our Result | Difference |
+|---|---|---|---|---|---|
+| cora | gcn | F1 | 0.6861 +/- 0.0023 | 0.40324 | -0.28286 |
+| cora | gcn | MCC | 0.6146 +/- 0.0014 | 0.36897 | -0.24563 |
+| cora | gnn_incm | F1 | 0.7508 +/- 0.0045 | 0.64322 | -0.10758 |
+| cora | gnn_incm | MCC | 0.7237 +/- 0.0051 | 0.60327 | -0.12043 |
+| cora | no_cluster | F1 | 0.7407 +/- 0.0071 | 0.64322 | -0.09748 |
+| cora | no_cluster | MCC | 0.7141 +/- 0.0061 | 0.60327 | -0.11083 |
+| cora | no_reconstruction | F1 | 0.7431 +/- 0.0064 | 0.64324 | -0.09986 |
+| cora | no_reconstruction | MCC | 0.7143 +/- 0.0049 | 0.60304 | -0.11126 |
+| cora | no_hard | F1 | 0.7439 +/- 0.0058 | 0.67066 | -0.07324 |
+| cora | no_hard | MCC | 0.7131 +/- 0.0057 | 0.63128 | -0.08182 |
+| citeseer | gcn | F1 | 0.6158 +/- 0.0029 | 0.52757 | -0.08823 |
+| citeseer | gcn | MCC | 0.5549 +/- 0.0014 | 0.54914 | -0.00576 |
+| citeseer | gnn_incm | F1 | 0.6490 +/- 0.0048 | 0.57404 | -0.07496 |
+| citeseer | gnn_incm | MCC | 0.6274 +/- 0.0036 | 0.53851 | -0.08889 |
+| citeseer | no_cluster | F1 | 0.6465 +/- 0.0061 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| citeseer | no_cluster | MCC | 0.6231 +/- 0.0056 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| citeseer | no_reconstruction | F1 | 0.6449 +/- 0.0094 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| citeseer | no_reconstruction | MCC | 0.6215 +/- 0.0085 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| citeseer | no_hard | F1 | 0.6458 +/- 0.0052 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| citeseer | no_hard | MCC | 0.6220 +/- 0.0063 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| pubmed | gcn | F1 | 0.7524 +/- 0.0023 | 0.74665 | -0.00575 |
+| pubmed | gcn | MCC | 0.6265 +/- 0.0038 | 0.63466 | +0.00816 |
+| pubmed | gnn_incm | F1 | 0.7704 +/- 0.0039 | 0.75549 | -0.01491 |
+| pubmed | gnn_incm | MCC | 0.6493 +/- 0.0059 | 0.64942 | +0.00012 |
+| pubmed | no_cluster | F1 | 0.7618 +/- 0.0054 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| pubmed | no_cluster | MCC | 0.6478 +/- 0.0048 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| pubmed | no_reconstruction | F1 | 0.7663 +/- 0.0051 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| pubmed | no_reconstruction | MCC | 0.6449 +/- 0.0044 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| pubmed | no_hard | F1 | 0.7630 +/- 0.0048 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |
+| pubmed | no_hard | MCC | 0.6419 +/- 0.0052 | [RESULT TO BE GENERATED] | [RESULT TO BE GENERATED] |

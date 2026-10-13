@@ -1,0 +1,30 @@
+{
+  "dataset": "cora",
+  "nodes": 2708,
+  "features": 1433,
+  "classes": 7,
+  "undirected_edges": 5278,
+  "directed_entries": 10556,
+  "paper_links": 5429,
+  "unknown_labels": 0,
+  "class_counts": [
+    351,
+    217,
+    418,
+    818,
+    426,
+    298,
+    180
+  ],
+  "sha256": {
+    "ind.cora.x": "23cfa55d91c6f624233f5eb7b6e3f141f1bd2b2ae39608a63cf5d084bb27baab",
+    "ind.cora.y": "94465c14eb53e04ca262198dcbb2521ee8af60fb3f3d546cd6ca24a511b0e7d1",
+    "ind.cora.tx": "b9afbaa4a400df991f6f02ef677e1e44da55ffc04801fd02f9e673987829226a",
+    "ind.cora.ty": "41f5ac76596a1699cc33f53084a2419e92961c42bb75f36fc38e616d348532ad",
+    "ind.cora.allx": "9419ba2f26f5c35243db64aba110e0f35a04851609e0dc5433450676ca6b8543",
+    "ind.cora.ally": "2b998f5cc7fedc86e7f97ca2498f47a1ffc1462c29e2d578b23bf3f62b6e7d71",
+    "ind.cora.graph": "58f13302f39dde8852dad6fe6d15b89b077b6d7f837626bce671ef80344b383d",
+    "ind.cora.test.index": "297ce89af2b51a6a194181c7dbe1796c6a1cf9cd9349a88383b1b1e227867875"
+  },
+  "source": "https://raw.githubusercontent.com/kimiyoung/planetoid/master/data/"
+}

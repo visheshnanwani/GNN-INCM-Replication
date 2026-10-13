@@ -1,0 +1,153 @@
+{
+  "accuracy": 0.6367864693446089,
+  "macro_precision": 0.7423566067718165,
+  "macro_recall": 0.6431348888652756,
+  "macro_f1": 0.6318474654059505,
+  "mcc": 0.598132535859072,
+  "per_class": [
+    {
+      "class_id": 0,
+      "precision": 0.3579920739762219,
+      "recall": 0.9063545150501672,
+      "f1": 0.5132575757575758,
+      "support": 299
+    },
+    {
+      "class_id": 1,
+      "precision": 0.7432432432432432,
+      "recall": 0.5555555555555556,
+      "f1": 0.6358381502890174,
+      "support": 198
+    },
+    {
+      "class_id": 2,
+      "precision": 0.9431137724550899,
+      "recall": 0.8490566037735849,
+      "f1": 0.8936170212765957,
+      "support": 371
+    },
+    {
+      "class_id": 3,
+      "precision": 0.9704918032786886,
+      "recall": 0.40827586206896554,
+      "f1": 0.574757281553398,
+      "support": 725
+    },
+    {
+      "class_id": 4,
+      "precision": 0.5421245421245421,
+      "recall": 0.8199445983379502,
+      "f1": 0.6527012127894156,
+      "support": 361
+    },
+    {
+      "class_id": 5,
+      "precision": 0.7767857142857143,
+      "recall": 0.6770428015564203,
+      "f1": 0.7234927234927235,
+      "support": 257
+    },
+    {
+      "class_id": 6,
+      "precision": 0.8627450980392157,
+      "recall": 0.2857142857142857,
+      "f1": 0.4292682926829268,
+      "support": 154
+    }
+  ],
+  "confusion_matrix": [
+    [
+      271,
+      0,
+      3,
+      4,
+      19,
+      1,
+      1
+    ],
+    [
+      72,
+      110,
+      5,
+      2,
+      8,
+      1,
+      0
+    ],
+    [
+      29,
+      17,
+      315,
+      3,
+      5,
+      2,
+      0
+    ],
+    [
+      186,
+      17,
+      7,
+      296,
+      207,
+      8,
+      4
+    ],
+    [
+      36,
+      1,
+      0,
+      0,
+      296,
+      28,
+      0
+    ],
+    [
+      74,
+      3,
+      2,
+      0,
+      2,
+      174,
+      2
+    ],
+    [
+      89,
+      0,
+      2,
+      0,
+      9,
+      10,
+      44
+    ]
+  ],
+  "run_id": "cora_gnn_incm_seed42",
+  "dataset": "cora",
+  "model": "gnn_incm",
+  "seed": 42,
+  "best_epoch": 213,
+  "val_macro_f1": 0.6150862449359537,
+  "config": {
+    "dataset": "cora",
+    "model": "gnn_incm",
+    "seed": 42,
+    "epochs": 1000,
+    "patience": 200,
+    "hidden": 100,
+    "dropout": 0.3,
+    "lr": 0.002,
+    "weight_decay": 0.03,
+    "gamma": 1.01,
+    "beta_cap": 100.0,
+    "edge_samples": 10000,
+    "cache": "C:\\Users\\vishe\\OneDrive\\Documents\\gnn-incm-dataset-cache",
+    "output": "C:\\Users\\vishe\\OneDrive\\Documents\\GNN-INCM-Replication\\results",
+    "threads": 2
+  },
+  "split_sizes": {
+    "train": 81,
+    "val": 262,
+    "test": 2365
+  },
+  "epochs_ran": 413,
+  "seconds": 15.704699699999765
+}
